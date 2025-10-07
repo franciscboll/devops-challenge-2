@@ -1,0 +1,33 @@
+# === Claves y archivos sensibles ===
+*.pem
+*.key
+*.crt
+*.csr
+*.env
+config.env
+
+# === Terraform (si en algún momento se agrega infraestructura IaC) ===
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# === Logs y temporales ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# === Archivos de ejecución ===
+nohup.out
+*.pid
+
+# === Archivos del sistema ===
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
